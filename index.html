@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="shortcut icon" href="./Images/logo_website_png.png" type="image/x-icon">
+    <link rel="stylesheet" href="./game.html">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+    </style>
+    <title>Berzergx</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top" id="body">
+                    <div class="header__top-logo">
+                        <div class="header__logo" id="header__logos">berzergx</div>
+                    </div>
+                    <ul class="header__top-inner">
+                        <li class="header__top-item">
+                            <a class="header__top-point" href="https://www.twitch.tv/berzergx" target="_blank">Следите
+                                за мной <span>
+                                    <svg width="22px" height="22px" viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none">
+                                        <path fill="#ffffff" d="M13 7.5l-2 2H9l-1.75 1.75V9.5H5V2h8v5.5z" />
+                                        <g fill="#9146FF">
+                                            <path
+                                                d="M4.5 1L2 3.5v9h3V15l2.5-2.5h2L14 8V1H4.5zM13 7.5l-2 2H9l-1.75 1.75V9.5H5V2h8v5.5z" />
+                                            <path d="M11.5 3.75h-1v3h1v-3zM8.75 3.75h-1v3h1v-3z" />
+                                        </g>
+                                    </svg>
+                                </span></a>
+                        </li>
+                        <li class="header__top-item">
+                            <a class="header__top-point" href="#"></a>
+                        </li>
+                        <li class="header__top-item">
+                            <a class="header__top-point" href="https://discord.gg/PGVguTXc2v" target="_blank">Discord
+                                <span>
+                                    <svg width="22px" height="22px" viewBox="0 -28.5 256 256" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        preserveAspectRatio="xMidYMid">
+                                        <g>
+                                            <path
+                                                d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"
+                                                fill="#5865F2" fill-rule="nonzero">
+
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__bottom" id="twitch">
+                    <div class="header__bottom-left">
+                        <div class="header__bottom-text">Приветствуем на нашем стриминговом канале! Смотрите прямые
+                            трансляции лучших игр вместе с <span>berzergx</span></div>
+                        <div class="header__bottom-video" id="twitch-embed">
+                            <!-- <iframe src="https://player.twitch.tv/?channel=berzergx&parent=127.0.0.1" frameborder="0"
+                                allowfullscreen="true" scrolling="no" height="378" width="620">
+                            </iframe> -->
+                        </div>
+
+                    </div>
+                    <!-- <div class="header__bottom-right">
+                        <div class="header__bottom-logo">berzergx <br>Chat</div>
+                        <div class="header__right-chat">
+                            <div class="header__right-chats">
+                                <iframe id="chat_embed"
+                                    src="https://www.twitch.tv/embed/berzergx/chat?parent=127.0.0.1">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </header>
+        <section class="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__left">
+                        <h1 class="about__inner">Всем хай</h1>
+                        <p class="about__text-texts">Добро пожаловать на ламповые чиллауты. Меня зовут Богдан, можно
+                            просто Дядя. Играю на чилле в разные игры, в зависимости от настроения. Основные игры:
+                            EFT, Dota2, HOI4, Crusader Kings, Project Zomboid. Иногда играю со своей пачкой ребят.
+                            Всем рад.</p>
+                        <p class="about__left-text">О себе: я проживаю в городе Калининграде, мне 29 лет. <br> Люблю
+                            путешествовать, гулять среди
+                            деревьев и просто отлично проводить время. <br> На моем канале вы можете найти множество
+                            различных контентов - от стримов в онлайн играх до обзоров игр, увлекательных видео о
+                            приключениях в виртуальном мире и многое другое. Здесь всегда есть что-то новое и
+                            интересное для зрителей, которые любят игры и стриминг. Кроме того, вы можете
+                            наслаждаться уникальным стилем и подходом Berzergx к созданию контента, который
+                            заставляет зрителей возвращаться на его канал снова и снова. Здесь вы найдете атмосферу,
+                            которую создают только самые лучшие стримеры, и погрузитесь в мир онлайн игр вместе с
+                            <span>Berzergx.</span>
+                        </p>
+                    </div>
+                    <div class="about__right">
+                        <img src="./Images/giv/Smoke_1.gif" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="games" id="452">
+            <div class="container">
+                <div class="games__inner">
+                    <h2 class="games__inner-logo">ИГРЫ В КОТОРЫЕ МЫ ИГРАЕМ</h2>
+                    <div class="games__slider-wrapper">
+                        <div class="games__slider">
+                            <div class="games__slider-content">
+                                <img src="./Images/games_img/CrusaderKings.jpeg" alt="#">
+                                <div class="games__content-name">Crusader Kings III</div>
+                            </div>
+                            <div class="games__slider-content">
+                                <img src="./Images/games_img/barotrauma.jpeg" alt="#">
+                                <div class="games__content-name">Barotrauma</div>
+                            </div>
+                            <div class="games__slider-content">
+                                <img src="./Images/games_img/HeartsofIron.jpeg" alt="#">
+                                <div class="games__content-name">Hearts of Iron</div>
+                            </div>
+                            <div class="games__slider-content">
+                                <img src="./Images/games_img/dota2.jpg" alt="#">
+                                <div class="games__content-name">Dota 2</div>
+                            </div>
+                            <div class="games__slider-content">
+                                <img src="./Images/games_img/ProjectZomboid.jpeg" alt="#">
+                                <div class="games__content-name">Project Zomboid</div>
+                            </div>
+                            <div class="games__slider-content">
+                                <img src="./Images/games_img/tarkov.jpeg" alt="#">
+                                <div class="games__content-name">Escape from Tarkov</div>
+                            </div>
+                            <div class="games__slider-content">
+                                <img src="./Images/games_img/cyberpunk.jpg" alt="#">
+                                <div class="games__content-name">Cyberpunk 2077</div>
+                            </div>
+                        </div>
+                        <div class="games__slider-arrows">
+                            <a class="games__slider-arrow games__slider-prev" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 96 960 960" width="24">
+                                    <path d="M480 896 160 576l320-320 57 56-224 224h487v80H313l224 224-57 56Z" />
+                                </svg>
+                            </a>
+                            <a class="games__slider-arrow games__slider-next" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 96 960 960" width="24">
+                                    <path d="m480 896-57-56 224-224H160v-80h487L423 312l57-56 320 320-320 320Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cooperation">
+            <div class="container">
+                <h1 class="cooperation__heading">СОТРУДНИЧЕСТВА И ПОЖЕЛАНИЯ</h1>
+                <div class="cooperation__row">
+                    <div class="cooperation__left">
+                        <img src="./Images/giv/bg.gif" alt="#">
+                    </div>
+                    <div class="cooperation__right">
+                        <div class="cooperation__inner">
+                            <a class="cooperation__inner-btn" href="mailto:bers3993@gmail.com">bers3993@gmail.com</a>
+                            <p class="cooperation__inner-text">Все пожелания будут внимательно рассмотрены и учтены
+                                при
+                                создании контента на нашем канале.
+                                Мы всегда стремимся удовлетворить потребности наших зрителей и сделать их пребывание
+                                на
+                                канале максимально интересным и приятным. Поэтому любые предложения, идеи и
+                                пожелания от
+                                наших зрителей будут рассмотрены с уважением и вниманием. Мы ценим вашу поддержку и
+                                готовы
+                                совершенствовать свой контент в соответствии с вашими пожеланиями.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__item-logo">
+                        <a class="footer__inner-logo" href="https://www.twitch.tv/berzergx">berzergx</a>
+                        <img src="./Images/giv/footer.gif" alt="#">
+                    </div>
+                    <div class="footer__item">
+                        <ul class="footer__inner-list">
+                            <li class="footer__item-links">
+                                <a class="footer__item-link" href="#twitch">Twitch</a>
+                            </li>
+                            <li class="footer__item-links">
+                                <a class="footer__item-link" href="#twitch" target="_blank">Discord</a>
+                            </li>
+                            <li class="footer__item-links">
+                                <a class="footer__item-link" href="#452">Игры</a>
+                            </li>
+                            <li class="footer__mailto-links">
+                                <a class="footer__mailto-item" href="mailto:bers3993@gmail.com">bers3993@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__protected">
+                    <ul class="footer__protected">
+                        <li class="footer__protected-link">
+                            <a class="footer__protected-item" href="#body">Go to top</a>
+                        </li>
+                    </ul>
+                    <p>(с) 2023. Все права защищены.</p>
+                </div>
+        </footer>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="script.js"></script>
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+<script type="text/javascript">
+    new Twitch.Player("twitch-embed", {
+        channel: "berzergx"
+    });
+</script>
+
+</html>
