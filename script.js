@@ -5,7 +5,7 @@ $('.games__slider').slick({
   arrows: false,
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 1500,
   waitForAnimate: false,
   responsive:
